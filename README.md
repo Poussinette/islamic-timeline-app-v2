@@ -2,6 +2,12 @@
 
 A comprehensive, interactive timeline application showcasing the life and teachings of Prophet Muhammad ﷺ (peace be upon him) based on authentic Islamic sources. This educational platform combines traditional Islamic scholarship with modern web technology to provide an immersive learning experience.
 
+## 🌐 **Live Application**
+
+**🔗 Access the app now: [https://poussinette.github.io/islamic-timeline-app-v2](https://poussinette.github.io/islamic-timeline-app-v2)**
+
+The Islamic Timeline App v2 is live and publicly accessible! Experience the interactive Seerah timeline with authentic Islamic sources, beautiful Arabic calligraphy, and comprehensive scholarly content.
+
 ## 🌟 Overview
 
 The Islamic Timeline App v2 presents the Seerah (biography) of Prophet Muhammad ﷺ through a beautifully designed, interactive timeline interface. Each event is meticulously researched and includes authentic Hadith references, Quranic revelations, historical context, and scholarly commentary from classical Islamic sources.
@@ -102,6 +108,24 @@ npm run dev
 - `npm run build` - Build the project for production
 - `npm run preview` - Preview the production build locally
 - `npm run lint` - Run ESLint for code quality checks
+- `npm run deploy` - Deploy to GitHub Pages (builds and publishes automatically)
+
+### Deployment to GitHub Pages
+
+The app is automatically deployed to GitHub Pages. To deploy updates:
+
+1. **Make your changes** and test locally with `npm run dev`
+2. **Deploy to production**:
+```bash
+npm run deploy
+```
+
+This will:
+- Build the project for production
+- Deploy to the `gh-pages` branch
+- Make changes live at: https://poussinette.github.io/islamic-timeline-app-v2
+
+**Note**: Deployment typically takes 1-2 minutes to become visible on the live site.
 
 ## 📖 Content Structure
 
