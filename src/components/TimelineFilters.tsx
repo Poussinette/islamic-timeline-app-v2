@@ -10,19 +10,12 @@ interface TimelineFiltersProps {
   filteredEvents: number;
 }
 
-const categoryLabels: Record<EventCategory | 'all', { label: string; arabicLabel?: string }> = {
+// Only show categories that actually exist in our current dataset
+const categoryLabels: Record<string, { label: string; arabicLabel?: string }> = {
   'all': { label: 'All Events', arabicLabel: 'جميع الأحداث' },
   'birth-early-life': { label: 'Birth & Early Life', arabicLabel: 'الولادة والطفولة' },
-  'pre-prophethood': { label: 'Pre-Prophethood', arabicLabel: 'ما قبل النبوة' },
   'early-revelation': { label: 'Early Revelation', arabicLabel: 'بداية الوحي' },
-  'persecution': { label: 'Persecution Period', arabicLabel: 'فترة الاضطهاد' },
-  'migration': { label: 'Migration', arabicLabel: 'الهجرة' },
-  'battles': { label: 'Battles', arabicLabel: 'الغزوات' },
-  'treaties': { label: 'Treaties', arabicLabel: 'المعاهدات' },
-  'conquests': { label: 'Conquests', arabicLabel: 'الفتوحات' },
-  'personal': { label: 'Personal Life', arabicLabel: 'الحياة الشخصية' },
-  'social-reforms': { label: 'Social Reforms', arabicLabel: 'الإصلاحات الاجتماعية' },
-  'final-years': { label: 'Final Years', arabicLabel: 'السنوات الأخيرة' }
+  'migration': { label: 'Migration', arabicLabel: 'الهجرة' }
 };
 
 export const TimelineFilters: React.FC<TimelineFiltersProps> = ({
