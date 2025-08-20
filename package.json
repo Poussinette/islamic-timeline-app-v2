@@ -1,9 +1,27 @@
 {
   "name": "islamic-timeline-app-v2",
-  "private": true,
-  "version": "0.0.0",
+  "version": "2.0.0",
   "type": "module",
+  "license": "MIT",
   "homepage": "https://poussinette.github.io/islamic-timeline-app-v2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Poussinette/islamic-timeline-app-v2.git"
+  },
+  "keywords": [
+    "islamic",
+    "seerah",
+    "prophet-muhammad",
+    "timeline",
+    "react",
+    "typescript",
+    "education",
+    "history",
+    "quran",
+    "hadith"
+  ],
+  "author": "Poussinette",
+  "description": "Interactive timeline of Prophet Muhammad's life with authentic Islamic sources",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
