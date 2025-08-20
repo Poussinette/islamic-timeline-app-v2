@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { seerahEvents, timelinePeriods } from '../data/seerahEvents';
-import type { SeerahEvent, EventCategory } from '../types/seerah';
+import type { EventCategory } from '../types/seerah';
 import { TimelineEvent } from './TimelineEvent';
 import { TimelineFilters } from './TimelineFilters';
 import { TimelineHeader } from './TimelineHeader';
